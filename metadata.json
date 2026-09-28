@@ -1,0 +1,6 @@
+{
+  "name": "KinVault - Private Family AI Hub",
+  "description": "A secure, invite-only personal AI hub for your family with custom member access, deep thinking, web search, Google Maps local grounding, image analysis, and shared family intelligence.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

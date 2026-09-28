@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Deep obsidian velvet gradient -->
+    <radialGradient id="iconBgGlow" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="50%" stop-color="#0c0a09" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+
+    <!-- Ultra Solar Gold Core Gradient -->
+    <linearGradient id="iconGoldCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="25%" stop-color="#fde047" />
+      <stop offset="55%" stop-color="#f59e0b" />
+      <stop offset="85%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Cyber Sunset Flame Gradient -->
+    <linearGradient id="iconFlame" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Outer Faceted Shield Gradient -->
+    <linearGradient id="iconPlate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#292524" />
+      <stop offset="50%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+
+    <!-- Ambient Core Radial Glow -->
+    <radialGradient id="iconCoreRadial" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#ea580c" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0c0a09" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Atmospheric Drop Shadows -->
+    <filter id="iconGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="28" flood-color="#f59e0b" flood-opacity="0.5" />
+      <feDropShadow dx="0" dy="16" stdDeviation="40" flood-color="#ea580c" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base Frame with Dual Border -->
+  <rect width="512" height="512" rx="140" fill="url(#iconBgGlow)" stroke="#292524" stroke-width="4" />
+  <rect x="14" y="14" width="484" height="484" rx="126" fill="none" stroke="url(#iconGoldCore)" stroke-width="2" stroke-opacity="0.35" />
+
+  <!-- Core Radial Glow -->
+  <circle cx="256" cy="256" r="190" fill="url(#iconCoreRadial)" />
+
+  <!-- Background Orbit Grid Pattern -->
+  <circle cx="256" cy="256" r="195" fill="none" stroke="#292524" stroke-width="2" stroke-dasharray="6 10" />
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#44403c" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="3 6" />
+
+  <!-- Outer Faceted Cyber-Shield Crest -->
+  <polygon points="256,48 436,134 436,346 256,464 76,346 76,134" 
+           fill="url(#iconPlate)" 
+           stroke="url(#iconGoldCore)" 
+           stroke-width="10" 
+           stroke-linejoin="round"
+           filter="url(#iconGlow)" />
+
+  <!-- Inner Cyber Rings -->
+  <circle cx="256" cy="256" r="120" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-opacity="0.35" stroke-dasharray="4 8" />
+
+  <!-- Interlocking Infinite Quantum Knot (Stylized 'J' and 'H' Monogram) -->
+  <!-- Left Wing & J Hook -->
+  <path d="M 160 170 L 208 170 L 208 296 C 208 326, 232 346, 264 346 L 280 346 C 304 346, 320 330, 320 306 L 320 264 L 264 264" 
+        fill="none" 
+        stroke="url(#iconGoldCore)" 
+        stroke-width="22" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Right Pillar & Dynamic H Cross-bridge -->
+  <path d="M 352 170 L 352 342 M 352 230 L 224 230 M 224 170 L 224 230" 
+        fill="none" 
+        stroke="url(#iconFlame)" 
+        stroke-width="22" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Central Radiance Diamond Spark -->
+  <polygon points="256,200 272,240 312,256 272,272 256,312 240,272 200,256 240,240" 
+           fill="#ffffff" />
+  <circle cx="256" cy="256" r="8" fill="#fef08a" />
+
+  <!-- Quantum Energy Corner Satellite Sparks -->
+  <circle cx="256" cy="94" r="8" fill="#38bdf8" />
+  <circle cx="396" cy="162" r="8" fill="#f59e0b" />
+  <circle cx="396" cy="320" r="8" fill="#ea580c" />
+  <circle cx="256" cy="418" r="8" fill="#fde047" />
+  <circle cx="116" cy="320" r="8" fill="#ea580c" />
+  <circle cx="116" cy="162" r="8" fill="#38bdf8" />
+</svg>
